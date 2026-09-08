@@ -1,0 +1,107 @@
+import { CateringItem, Category, Unit } from '../types';
+
+export const CATEGORIES: Category[] = [
+  'Makanan Pokok',
+  'Lauk',
+  'Sayuran',
+  'Minuman',
+  'Snack',
+  'Dessert',
+  'Lainnya',
+];
+
+export const CATEGORY_COLORS: Record<Category, string> = {
+  'Makanan Pokok': 'bg-amber-100 text-amber-800 border-amber-200',
+  'Lauk': 'bg-orange-100 text-orange-800 border-orange-200',
+  'Sayuran': 'bg-emerald-100 text-emerald-800 border-emerald-200',
+  'Minuman': 'bg-blue-100 text-blue-800 border-blue-200',
+  'Snack': 'bg-purple-100 text-purple-800 border-purple-200',
+  'Dessert': 'bg-pink-100 text-pink-800 border-pink-200',
+  'Lainnya': 'bg-slate-100 text-slate-800 border-slate-200',
+};
+
+export const UNITS: Unit[] = [
+  'porsi',
+  'box',
+  'bungkus',
+  'botol',
+  'gelas',
+  'mangkok',
+  'potong',
+  'kg',
+  'liter',
+  'pcs',
+];
+
+export const INITIAL_CATERING_ITEMS: CateringItem[] = [
+  {
+    id: 'seed-1',
+    name: 'Katering Asep',
+    initialQty: 100,
+    takenQty: 0,
+    unit: 'porsi',
+    category: 'Makanan Pokok',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+  {
+    id: 'seed-2',
+    name: 'Katering Budi',
+    initialQty: 80,
+    takenQty: 0,
+    unit: 'porsi',
+    category: 'Lauk',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+  {
+    id: 'seed-3',
+    name: 'Katering Citra',
+    initialQty: 60,
+    takenQty: 0,
+    unit: 'mangkok',
+    category: 'Sayuran',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+  {
+    id: 'seed-4',
+    name: 'Katering Dewi',
+    initialQty: 150,
+    takenQty: 0,
+    unit: 'botol',
+    category: 'Minuman',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+  {
+    id: 'seed-5',
+    name: 'Katering Eka',
+    initialQty: 100,
+    takenQty: 0,
+    unit: 'gelas',
+    category: 'Minuman',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+  {
+    id: 'seed-6',
+    name: 'Katering Fajar',
+    initialQty: 50,
+    takenQty: 0,
+    unit: 'bungkus',
+    category: 'Snack',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+  {
+    id: 'seed-7',
+    name: 'Katering Gita',
+    initialQty: 40,
+    takenQty: 0,
+    unit: 'box',
+    category: 'Dessert',
+    createdAt: '2026-01-01T00:00:00.000Z',
+    history: [],
+  },
+];

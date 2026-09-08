@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Katering - Manajemen Stok Bulanan",
+  "description": "Dashboard untuk mengelola stok katering bulanan dengan hitung mundur hari dan pelacakan pengambilan stok otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
